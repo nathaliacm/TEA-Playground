@@ -15,7 +15,7 @@
 	<key>SwiftVersion</key>
 	<string>$(SWIFT_VERSION)</string>
 	<key>Name</key>
-	<string>PlaygroundBookName</string>
+	<string>Details Matter</string>
 	<key>Chapters</key>
 	<array>
 		<string>Chapter1.playgroundchapter</string>
@@ -28,5 +28,7 @@
 	<string>Disabled</string>
 	<key>SupportsDarkMode</key>
 	<true/>
+	<key>ImageReference</key>
+	<string>detailsMatterCover.png</string>
 </dict>
 </plist>

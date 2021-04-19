@@ -33,8 +33,6 @@ As we can see in those examples:
   
  
  Also try to use icons that represent the action and that are real life related. Our texts need to be simple and more literal. The things must be more direct because some people with autism have difficulty understanding metaphors or instructions that are not clear.
-
- With all these in mind run the code and choose the right button and help our character cross the obstacle.
  
  * Experiment:
  With all these in mind, try to do the activity:

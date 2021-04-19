@@ -16,6 +16,7 @@
 		561DA64F262874A000852964 /* Page3Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561DA64E262874A000852964 /* Page3Scene.swift */; };
 		561DA657262874B200852964 /* Page3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561DA656262874B200852964 /* Page3ViewController.swift */; };
 		5626EB02262730D80020B3D1 /* Page1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5626EB01262730D80020B3D1 /* Page1ViewController.swift */; };
+		5675E787262DF9F000B840D0 /* detailsMatterCover.png in Resources */ = {isa = PBXBuildFile; fileRef = 5675E786262DF9F000B840D0 /* detailsMatterCover.png */; };
 		56859ADB262A7F31008147FB /* cellPhoneImages.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 56859ADA262A7F31008147FB /* cellPhoneImages.atlas */; };
 		56859AE8262A7F9C008147FB /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 56859AE7262A7F9C008147FB /* GameScene.sks */; };
 		56859AF3262C997A008147FB /* boyImages.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 56859AF2262C9960008147FB /* boyImages.atlas */; };
@@ -137,11 +138,12 @@
 		561DA64E262874A000852964 /* Page3Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page3Scene.swift; sourceTree = "<group>"; };
 		561DA656262874B200852964 /* Page3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page3ViewController.swift; sourceTree = "<group>"; };
 		5626EB01262730D80020B3D1 /* Page1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page1ViewController.swift; sourceTree = "<group>"; };
+		5675E786262DF9F000B840D0 /* detailsMatterCover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = detailsMatterCover.png; sourceTree = "<group>"; };
 		56859ADA262A7F31008147FB /* cellPhoneImages.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = cellPhoneImages.atlas; sourceTree = "<group>"; };
 		56859AE7262A7F9C008147FB /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		56859AF2262C9960008147FB /* boyImages.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = boyImages.atlas; sourceTree = "<group>"; };
 		56F197E526271DC5006E2AFD /* Page1Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page1Scene.swift; sourceTree = "<group>"; };
-		5E086DC02051C5A7004D8D25 /* PlaygroundBook.playgroundbook */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaygroundBook.playgroundbook; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E086DC02051C5A7004D8D25 /* DetailsMatter.playgroundbook */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DetailsMatter.playgroundbook; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E086DC72051DD03004D8D25 /* BookOverridingBuildSettings.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = BookOverridingBuildSettings.xcconfig; sourceTree = "<group>"; };
 		5E086DCD2051DDB8004D8D25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LiveView.storyboard; sourceTree = "<group>"; };
 		5E086DCF2051DF0F004D8D25 /* Manifest.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Manifest.plist; sourceTree = "<group>"; };
@@ -236,7 +238,7 @@
 		5E086DA4204F706E004D8D25 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5E086DC02051C5A7004D8D25 /* PlaygroundBook.playgroundbook */,
+				5E086DC02051C5A7004D8D25 /* DetailsMatter.playgroundbook */,
 				5EF2F9AB2054BBF300191409 /* libBookCore.a */,
 				5E6F7E612368FB6A008CC191 /* libBookAPI.a */,
 				5EA2E3BD2056F35A00416A35 /* LiveViewTestApp.app */,
@@ -390,6 +392,7 @@
 		5EF2F9792054B64800191409 /* PrivateResources */ = {
 			isa = PBXGroup;
 			children = (
+				5675E786262DF9F000B840D0 /* detailsMatterCover.png */,
 				560CC480262DBB1B00F1EE95 /* Images */,
 				56859AF2262C9960008147FB /* boyImages.atlas */,
 				56859ADA262A7F31008147FB /* cellPhoneImages.atlas */,
@@ -429,7 +432,7 @@
 			);
 			name = PlaygroundBook;
 			productName = PlaygroundBook;
-			productReference = 5E086DC02051C5A7004D8D25 /* PlaygroundBook.playgroundbook */;
+			productReference = 5E086DC02051C5A7004D8D25 /* DetailsMatter.playgroundbook */;
 			productType = "com.apple.product-type.bundle";
 		};
 		5E6F7E602368FB6A008CC191 /* BookAPI */ = {
@@ -548,6 +551,7 @@
 				56859AE8262A7F9C008147FB /* GameScene.sks in Resources */,
 				5E551EC52371FC3F00784365 /* Assets.xcassets in Resources */,
 				5E086DCA2051DDAE004D8D25 /* LiveView.storyboard in Resources */,
+				5675E787262DF9F000B840D0 /* detailsMatterCover.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

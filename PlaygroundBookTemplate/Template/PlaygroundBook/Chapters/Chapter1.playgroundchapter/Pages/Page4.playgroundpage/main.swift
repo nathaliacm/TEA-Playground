@@ -9,14 +9,14 @@
 import BookCore
 import PlaygroundSupport
 import SpriteKit
-
+PlaygroundPage.current.assessmentStatus = .pass(message: "You finished! Thank you!")
 //#-end-hidden-code
 
 /*:
  # Thank You!
  
- It was funny to learn a little bit more about accessibility and how design can help us.
- There are so many more things to learn and improve in our applications but it was just the beginning.
+ It was incredible to learn a little bit more about accessibility and how design can help us.
+ There are so many more things to learn and improve in our applications, it was just the beginning.
  Sometimes we think that it's difficult or complex to think about accessibility, but it's not. We learned just some simple actions, but I learned with Santa Teresa of Calcutta that simple actions can change the world!
  
  - Important:
