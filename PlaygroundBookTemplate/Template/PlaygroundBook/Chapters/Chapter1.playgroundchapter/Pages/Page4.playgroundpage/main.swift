@@ -19,11 +19,11 @@ import SpriteKit
  There are so many more things to learn and improve in our applications but it was just the beginning.
  Sometimes we think that it's difficult or complex to think about accessibility, but it's not. We learned just some simple actions, but I learned with Santa Teresa of Calcutta that simple actions can change the world!
  
- - Note:
+ - Important:
   "Accessibility is not just to the ones who are different,  but to all of us who are grateful that there are no barriers in the use of our skills."
  \
  \
-Remberto Esposa Jr
+-Remberto Esposa Jr
  */
 
 
