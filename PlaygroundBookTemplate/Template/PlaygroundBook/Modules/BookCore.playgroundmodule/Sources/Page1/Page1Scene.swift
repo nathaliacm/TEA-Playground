@@ -7,6 +7,7 @@
 
 import SpriteKit
 import UIKit
+import PlaygroundSupport
 
 public class Page1Scene: SKScene {
     public var w:CGFloat = 0
@@ -111,9 +112,9 @@ public class Page1Scene: SKScene {
     
     public func setupPuzzle4_light() {
         w = 0.21158667
-        h = 0.07692654
+        h = 0.06730885
         puzzle4_light.size = CGSize(width: self.frame.width*w, height: self.frame.height*h)
-        puzzle4_light.position = CGPoint(x: -(self.frame.width)*0.015, y: self.frame.height*0.376)
+        puzzle4_light.position = CGPoint(x: -(self.frame.width)*0.015, y: self.frame.height*0.383)
         puzzle4_light.name = "puzzle4_light"
         addChild(puzzle4_light)
         puzzle4_light.isHidden = true
@@ -191,8 +192,8 @@ public class Page1Scene: SKScene {
     
     public func setupPuzzle4() {
         w = 0.21158667
-        h = 0.07692654
-        self.initialPositionPuzzle4 = CGPoint(x: (self.frame.width)*0.34, y: -self.frame.height*0.076)
+        h = 0.06730885
+        self.initialPositionPuzzle4 = CGPoint(x: (self.frame.width)*0.34, y: -self.frame.height*0.073)
         puzzle4.size = CGSize(width: self.frame.width*w, height: self.frame.height*h)
         puzzle4.position = self.initialPositionPuzzle4
         puzzle4.name = "puzzle4"
@@ -429,6 +430,8 @@ public class Page1Scene: SKScene {
             backPopup.zPosition = 20
             addChild(backPopup)
             self.isUserInteractionEnabled = false
+            
+            PlaygroundPage.current.assessmentStatus = .pass(message: "Let's see the next page! [Go to next page](@next)")
         }
     }
 }

@@ -7,6 +7,7 @@
 
 import Foundation
 import SpriteKit
+import PlaygroundSupport
 
 public class Page3Scene: SKScene {
     
@@ -146,6 +147,11 @@ public class Page3Scene: SKScene {
                 downButton.alpha = 0.6
                 makeaWayButton.alpha = 0.6
                 self.isUserInteractionEnabled = false
+                PlaygroundPage.current.assessmentStatus = .none
+                
+            }
+            if (self.atPoint(location).name == "downButton") {
+                PlaygroundPage.current.assessmentStatus = .fail(hints: ["It's not right, try another button!"], solution: "make a way button")
             }
         }
     }
@@ -165,7 +171,12 @@ public class Page3Scene: SKScene {
         
     }
     
+    func end() {
+        PlaygroundPage.current.assessmentStatus = .pass(message: "Very well! The things are more acessible now! [Conclusion](@next)")
+    }
+    
     func boyMoveEnded() {
         boy.removeAction(forKey: "boyMoving")
+        end()
     }
 }
