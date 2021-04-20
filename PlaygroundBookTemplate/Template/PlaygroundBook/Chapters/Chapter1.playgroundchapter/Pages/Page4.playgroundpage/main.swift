@@ -9,7 +9,13 @@
 import BookCore
 import PlaygroundSupport
 import SpriteKit
+
+let viewController = Page4ViewController()
+
+PlaygroundSupport.PlaygroundPage.current.liveView = viewController
+
 PlaygroundPage.current.assessmentStatus = .pass(message: "You finished! Thank you!")
+
 //#-end-hidden-code
 
 /*:
